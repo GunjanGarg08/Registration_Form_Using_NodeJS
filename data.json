@@ -1,0 +1,57 @@
+[
+  {
+    "fullName": "Drishti",
+    "email": "drishti0330.be23@chitkara.edu.in",
+    "password": "0330",
+    "phone": "01234567890",
+    "dob": "2024-12-25",
+    "gender": "female",
+    "address": "Chitkara University, Punjab",
+    "college": "college2",
+    "eventType": "hackathon"
+  },
+  {
+    "fullName": "Anjali Agarwal",
+    "email": "anjali0282.be23@chitkara.edu.in",
+    "password": "0282",
+    "phone": "9876543210",
+    "dob": "2024-12-24",
+    "gender": "female",
+    "address": "Chitkara University, Punjab",
+    "college": "college1",
+    "eventType": "seminar"
+  },
+  {
+    "fullName": "Agrim Gupta",
+    "email": "agrim0331.be23@chitkara.edu.in",
+    "skill": "MERN",
+    "phone": "7845129630",
+    "dob": "2024-12-23",
+    "gender": "male",
+    "address": "Chitkara University, Punjab",
+    "college": "college4",
+    "eventType": "hackathon"
+  },
+  {
+    "fullName": "Gunjan Garg",
+    "email": "gunjan0339.be23@chitkara.edu.in",
+    "skill": "AI/ML",
+    "phone": "3692581470",
+    "dob": "2024-12-22",
+    "gender": "female",
+    "address": "Chitkara University, Punjab",
+    "college": "college3",
+    "eventType": "hackathon"
+  },
+  {
+    "fullName": "Chetan",
+    "email": "chetan0317.be23@chitkara.edu.in",
+    "skill": "MERN",
+    "phone": "7894561230",
+    "dob": "2024-12-21",
+    "gender": "male",
+    "address": "Chitkara University, Punjab",
+    "college": "college3",
+    "eventType": "hackathon"
+  }
+]
