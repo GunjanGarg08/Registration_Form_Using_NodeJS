@@ -1,0 +1,160 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #1e1e2f, #3b3b50);
+    color: #fff;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    /* background: url("https://wallpapers.com/images/hd/purple-gaming-bw9kl5n6y8edoyim.jpg")no-repeat; */
+    /* background: url("https://wallpapers.com/images/hd/purple-gaming-bw9kl5n6y8edoyim.jpg")no-repeat; */
+    /* background: url("https://wallpaperaccess.com/full/5338198.jpg")no-repeat; */
+    background: url("https://images.squarespace-cdn.com/content/v1/5017c2ace4b01a67d6bdc30c/1701985457745-0T2A3ABO0NOIU9FKQIR3/Ratchet+_+Clank_+Rift+Apart_20231104112339.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: backgroundMove 15s linear infinite;
+    /* animation: tiltEffect 8s ease-in-out infinite; */
+    color: #fff;
+}
+
+@keyframes backgroundMove {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 50% 50%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+/* @keyframes tiltEffect {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(1deg);
+    }
+    50% {
+        transform: rotate(-1deg);
+    }
+    75% {
+        transform: rotate(0.5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+} */
+
+.navbar {
+    background-color: #3b3b50;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar h1 {
+    margin: 0;
+    /* color: #c99eff; */
+    color: white;
+}
+
+/* .container {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: #26263b;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease;
+} */
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: transparent;
+    border: 2px solid white;
+    backdrop-filter: blur(15px);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+.container h2 {
+    text-align: center;
+    /* color: #c99eff; */
+    color: white;
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label {
+    color: #ddd;
+}
+
+input, select, textarea {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    background: #3b3b50;
+    color: #fff;
+    font-size: 1rem;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border: 2px solid #c99eff;
+}
+
+button {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    background: #c99eff;
+    color: #1e1e2f;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #a16dd0;
+}
+
+.footer {
+    background-color: #3b3b50;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    color: #c99eff;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.container {
+    animation: fadeIn 1s ease-in-out;
+}
